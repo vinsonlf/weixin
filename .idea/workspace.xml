@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ab415823-28bf-4509-b23e-85c7e95e784c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/loader.php" afterPath="$PROJECT_DIR$/app/config/loader.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -396,7 +395,7 @@
       <updated>1488294263937</updated>
       <workItem from="1488294267017" duration="26000" />
       <workItem from="1488294811131" duration="1923000" />
-      <workItem from="1488296759719" duration="2928000" />
+      <workItem from="1488296759719" duration="2938000" />
     </task>
     <task id="LOCAL-00001" summary="新增测试控制器">
       <created>1488295814411</created>
@@ -419,11 +418,18 @@
       <option name="project" value="LOCAL" />
       <updated>1488299503434</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="新增微信支付组件">
+      <created>1488299694084</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1488299694084</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4877000" />
+    <option name="totallyTimeSpent" value="4887000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
