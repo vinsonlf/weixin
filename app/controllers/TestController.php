@@ -9,6 +9,8 @@
 class TestController extends ControllerBase{
 
     public function indexAction(){
-
+        $wxpay = new wxpay();
+        $res = $wxpay->orderSn();
+        var_dump($res);exit;
     }
 }
