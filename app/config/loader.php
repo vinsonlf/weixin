@@ -9,6 +9,8 @@ $loader->registerDirs(
     [
         $config->application->controllersDir,
         $config->application->modelsDir,
-        $config->application->libraryDir
-    ],true
+        $config->application->libraryDir,
+        $config->application->libraryWeixinDir,
+        $config->application->serviceDir
+    ]
 )->register();

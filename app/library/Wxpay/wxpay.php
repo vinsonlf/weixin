@@ -16,9 +16,11 @@ class wxpay{
      * 微信统一订单号
      */
     public function orderSn(){
+
         //获取微信openid
-        $tools = new JsApiPay();
+        $tools = new JsApiPay();var_dump('eee');exit;
         $openId = $tools->GetOpenid();
+        var_dump($openId);exit;
         //生产统一订单
         $input = new WxPayUnifiedOrder();
         $input->SetBody("test");

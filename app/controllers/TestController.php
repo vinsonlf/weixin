@@ -9,8 +9,10 @@
 class TestController extends ControllerBase{
 
     public function indexAction(){
-        $wxpay = new wxpay();
-        $res = $wxpay->orderSn();
-        var_dump($res);exit;
+        //调用微信服务
+        $wxService = new WeixinService();
+        $result = $wxService->createWeixinConfig();
+
+        $this->view->setVar('result',$result);
     }
 }
